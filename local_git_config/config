@@ -1,0 +1,22 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[branch "master"]
+[remote "1.gitlab.feijianshen.com"]
+	url = http://111.111.111.30:10080/fjs/0_cpulsplus_TL.git
+	fetch = +refs/heads/*:refs/remotes/1.gitlab.feijianshen.com/*
+	pushurl = http://111.111.111.30:10080/fjs/0_cpulsplus_TL.git
+[remote "2_gitee.com"]
+	url = https://gitee.com/wrzfeijianshen/0_cpulsplus_TL.git
+	fetch = +refs/heads/*:refs/remotes/2_gitee.com/*
+	tagopt = --no-tags
+	pushurl = https://gitee.com/wrzfeijianshen/0_cpulsplus_TL.git
+[remote "3.github.com"]
+	url = https://github.com/wrzfeijianshen/0_cpulsplus_TL.git
+	fetch = +refs/heads/*:refs/remotes/3.github.com/*
+	tagopt = --no-tags
+	pushurl = https://github.com/wrzfeijianshen/0_cpulsplus_TL.git
